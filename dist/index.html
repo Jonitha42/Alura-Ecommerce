@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alura Geek</title>
   <link rel="stylesheet" href="style.css">
+  <title>Alura Geek</title>
 </head>
 
-<body class="">
+<body class="font-raleway max-w-[1440px] ">
   <!-- HEADER -->
   <header class="container-2xl px-[152px] h-28 items-center flex justify-between">
     <div class="flex items-center gap-4">
@@ -21,16 +21,16 @@
       <input class="bg-gray-100 w-80 opacity-80 rounded-full outline-none py-2 px-4 " placeholder="¿Qué estás buscando?"
         autocomplete="off" name="search" type="search">
     </div>
-    <button class="border border-blue-500 px-16 py-4 text-blue-500">Login</button>
+    <button class="border border-blue-500 px-16 py-4 text-blue-500 ">Login</button>
   </header>
 
   <!-- BANNER -->
-  <section>
+  <section class="">
     <div class="bg-cover bg-no-repeat bg-[url('../img/banner.png')] h-[352px]">
-      <div class="inline-flex flex-col justify-end pb-8 h-full pl-[152px] gap-4">
+      <div class="flex flex-col justify-end pb-8 h-full pl-[152px] gap-4">
         <h2 class="text-[52px] text-white ">Febrero Promocional</h2>
         <p class="text-[22px] text-white">Productos seleccionados con 33% de descuento</p>
-        <button class="p-4 bg-blue-500 text-white w-32">Ver Consolas</button>
+        <button class="p-4 bg-blue-500 text-white max-w-[129px] ">Ver Consolas</button>
       </div>
     </div>
   </section>
@@ -97,9 +97,8 @@
 
 
   <footer class="container-2xl max-w-[1440px] mt-14">
-
     <div class="bg-[#EAF2FD] flex items-start justify-between px-[152px] py-16">
-      <div class="flex items-center">
+      <div class="flex items-center justify-start -my-2">
         <img src="../img/logo.png" alt="logo">
         <span class="text-blue-500 font-bold text-xl">Alura</span>
         <p class="font-bold text-gray-700 text-xl">Geek</p>
@@ -117,22 +116,24 @@
       <div class="flex flex-col items-start min-w-[560px] gap-2">
         <p class="font-semibold text-gray-700 ">Hable con nosotros</p>
         <input
-          class="h-14 mb-1 rounded-sm shadow-md placeholder:opacity-50 placeholder:text-sm p-2 w-full outline-blue-300"
+          class="h-14 w-full mb-1 shadow-md p-3 font-light rounded hover:placeholder:-translate-y-4  outline-blue-300"
           name="" type="text" placeholder="Nombre y Apellido">
-        <textarea class="h-20  outline-blue-300 placeholder:opacity-50 p-2 w-full shadow-md placeholder:text-sm" name=""
-          id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+        <textarea
+          class="h-20 p-2 w-full shadow-md p-3 font-light rounded hover:placeholder:-translate-y-4  outline-blue-300"
+          name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
         <button class="bg-blue-500 text-white p-4 font-light ">Enviar Mensaje</button>
       </div>
     </div>
 
-    <div class="flex justify-center">
-      <div class="flex flex-col items-center py-8">
+    <div class="flex justify-center bg-white">
+      <div class="flex flex-col items-center py-8 h-24">
         <p>Desarrollado por <a class="text-blue-500 font-semibold" href="https://www.linkedin.com/in/jonathan-e-pardo/"
             target="_blank">Jonathan Pardo</a></p>
         <p>2021</p>
       </div>
     </div>
   </footer>
+
 
   <script src="https://cdn.tailwindcss.com"></script>
 </body>

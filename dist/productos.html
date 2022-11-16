@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-50 font-raleway">
+  <!-- HEADER -->
+  <header class="container-lg bg-white px-[152px] h-28 items-center flex justify-between">
+    <div class="flex items-center gap-4">
+      <div class="flex items-center">
+        <img src="../img/logo.png" alt="logo">
+        <span class="text-blue-500 font-bold text-xl">Alura</span>
+        <p class="font-bold text-gray-900 text-xl">Geek</p>
+      </div>
+      <input class="bg-gray-100 w-80 opacity-80 rounded-full outline-none py-2 px-4 " placeholder="¿Qué estás buscando?"
+        autocomplete="off" name="search" type="search">
+    </div>
+  </header>
+
+  <section class="max-w-[1440px] px-[152px] my-16  ">
+    <div class="flex items-center justify-between pb-5">
+      <p class="text-3xl font-bold text-gray-700">Todos los Productos</p>
+      <button class="bg-blue-500 font-light p-4 text-white">Agregar Productos</button>
+    </div>
+
+    <!-- CONTAINER DE PRODUCTOS -->
+    <div class="flex flex-wrap gap-6">
+
+      <!-- UN PRODUCTO -->
+      <div class="flex flex-col">
+        <img src="../img/starwars.png" alt="">
+        <p class="text-sm my-1">Producto XYZ</p>
+        <p class="font-bold">60$</p>
+        <p class="text-sm">#1111111</p>
+      </div>
+      <!-- FIN DEL PRODUCTO -->
+
+    </div>
+    <!-- FIN DEL CONTAINER -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="container-2xl max-w-[1440px] mt-14">
+    <div class="bg-[#EAF2FD] flex items-start justify-between px-[152px] py-16">
+      <div class="flex items-center justify-start -my-2">
+        <img src="../img/logo.png" alt="logo">
+        <span class="text-blue-500 font-bold text-xl">Alura</span>
+        <p class="font-bold text-gray-700 text-xl">Geek</p>
+      </div>
+
+      <div class="flex flex-col gap-6">
+        <a class="font-normal text-gray-700" href="">Quienes somos</a>
+        <a class="font-normal text-gray-700" href="">Política de privacidad</a>
+        <a class="font-normal text-gray-700" href="">Programa de fidelidad</a>
+        <a class="font-normal text-gray-700" href="">Nuestras tiendas</a>
+        <a class="font-normal text-gray-700" href="">Quiero ser Franquiciado</a>
+        <a class="font-normal text-gray-700" href="">Anúncie aquí</a>
+      </div>
+
+      <div class="flex flex-col items-start min-w-[560px] gap-2">
+        <p class="font-semibold text-gray-700 ">Hable con nosotros</p>
+        <input
+          class="h-14 w-full mb-1 shadow-md p-3 font-light rounded hover:placeholder:-translate-y-4  outline-blue-300"
+          name="" type="text" placeholder="Nombre y Apellido">
+        <textarea
+          class="h-20 p-2 w-full shadow-md p-3 font-light rounded hover:placeholder:-translate-y-4  outline-blue-300"
+          name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+        <button class="bg-blue-500 text-white p-4 font-light ">Enviar Mensaje</button>
+      </div>
+    </div>
+
+    <div class="flex justify-center bg-white">
+      <div class="flex flex-col items-center py-8 h-24">
+        <p>Desarrollado por <a class="text-blue-500 font-semibold" href="https://www.linkedin.com/in/jonathan-e-pardo/"
+            target="_blank">Jonathan Pardo</a></p>
+        <p>2021</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
